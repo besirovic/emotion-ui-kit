@@ -1,0 +1,25 @@
+{
+  "name": "emotion-ui-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/besirovic/emotion-ui-kit.git",
+  "author": "Ademir Besirovic <ademir.besirovic1996@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@rebass/grid": "^6.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
