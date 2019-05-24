@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "emotion-ui-kit",
+  "alias": "emotion-ui-kit.ademirbesirovic.dev",
+  "builds": [{
+    "src": "package.json",
+    "use": "@now/static-build",
+    "config": {
+      "distDir": "storybook-static"
+    }
+  }],
+  "routes": [
+    { "src": "/sb_dll/(.*)", "dest": "/sb_dll/$1" },
+    { "src": "/main.(.*)", "dest": "/main.$1" },
+    { "src": "/runtime~main.(.*)", "dest": "/runtime.$1" },
+    { "src": "/vendors~main.(.*)", "dest": "/vendors.$1" },
+    { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/iframe.html", "dest": "/iframe.html" },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
